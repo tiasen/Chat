@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+    <div id="messages">
+        <ul id="msgBox">
+
+        </ul>
+        <div class="aside">
+            <div class="roomList">
+                <ul>
+
+                </ul>
+            </div>
+            <div class="memberList">
+                <ul>
+
+                </ul>
+            </div>
+        </div>
+        <form>
+            <input type="text" autocomplete="off" id="m">
+            <button>Send</button>
+        </form>
+    </div>
+    <div id="nameBj">
+        <div class="box">
+            <h2>请输入你的昵称：</h2>
+            <input type="text" id="nick" />
+            <button> 确认</button>
+            <p class="tips error"><span id="tipsText"></span></p>
+        </div>
+    </div>
+</body>
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/socket.io/1.7.3/socket.io.min.js"></script>
+<script src="./js/index.js"></script>
+</html>
